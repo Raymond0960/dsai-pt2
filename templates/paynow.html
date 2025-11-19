@@ -19,8 +19,8 @@
 
     <script src="https://cdn.jsdelivr.net/npm/web3@1.5.2/dist/web3.min.js"></script>
     <script>
-        const contractAddress = "0xA23649f43d9fe7525574075EA0824815F4bce834";
-        const contractABI = [[
+        const contractAddress = "0x2cfc6b4739198701d500fa93ed61eebedfd78794";
+        const contractABI = [
             {
                 "inputs": [
                     {
@@ -67,7 +67,7 @@
                 "stateMutability": "view",
                 "type": "function"
             }
-        ]];
+        ];
         const web3 = new Web3(Web3.givenProvider);
         const contract = new web3.eth.Contract(contractABI, contractAddress);
 
